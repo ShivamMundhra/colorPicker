@@ -1,0 +1,13 @@
+body {
+  background-color: #232323;
+  color: white;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+.square {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  padding-bottom: 30%;
+  background-color: purple;
+}
