@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-  padding: 5% 0;
+  padding: 2% 0 1% 0;
   text-align: center;
   background-color: steelblue;
 }
@@ -23,6 +23,9 @@ body {
   font-size: 25px;
 }
 
+.heading-ques {
+  font-size: 300%;
+}
 .stripe {
   background-color: white;
   text-align: center;
@@ -33,7 +36,6 @@ button {
   font-weight: bold;
   font-size: 17px;
   border: none;
-  margin: 0 7px;
   background-color: white;
   height: 100%;
   transition: all 0.3s;
@@ -43,7 +45,7 @@ button {
 }
 
 button:hover,
-.active {
+.selected {
   background-color: steelblue;
   color: white;
 }
